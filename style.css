@@ -1,0 +1,146 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* container properties */
+#container{
+    /* position: relative; */
+    height: 10vw;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(9, 22, 61);
+}
+
+
+#container #link{
+    right: 0;
+    font-size: 1rem;
+    padding-right: 3rem;
+    float: right;
+    color: red;
+}
+
+#container div{
+    width: 62%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    text-align: center;
+    /* flex-grow: 3; */
+}
+
+ #container input[type=text]{
+     width: 20rem;
+     min-width: 80px;
+     background-color: white;
+     font-size: 1.2rem;
+     height: 3rem;
+     border-radius: 20px;
+ }
+
+ /* on click of input outline must be removed */
+ #container input:focus{
+    outline: none;
+}
+
+
+/* superhero-list-div */
+
+ #superhero-list-div{
+     background: url('https://images.freecreatives.com/wp-content/uploads/2015/09/batman-superhero-wallpaper.jpg');
+     background-image: url('https://images.freecreatives.com/wp-content/uploads/2015/09/batman-superhero-wallpaper.jpg');
+     background-size: cover;
+     box-sizing:border-box;
+     width:100%;
+     height:78.5vh;
+     text-align:center;
+     background-color: rgb(234, 116, 37);
+ }
+
+ #img-lft{
+     width: 14rem;
+     height: inherit;
+ }
+
+ /* list of items super hero name image & like button is added in this parent element */
+ #adding-content{
+     overflow:scroll;
+    display:inline-block;
+     width:40%;
+     height:75vh;
+     box-sizing:border-box;
+
+
+     background-color: #4158D0;
+     background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+          
+
+     border:2px solid rgb(255, 255, 255);
+     list-style:none;
+     text-align:center;
+     overflow-x:hidden;
+     
+ }
+
+ #adding-content::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* list of every super hero based on search result */
+ #adding-content li{
+     margin:0;
+     padding:0;
+     box-sizing:border-box;
+     flex-wrap:wrap;
+     font-size:10px;
+     width:100%;
+     height: 35%;
+     display:flex;
+     justify-content:space-between;
+     align-items:center;
+     transition: all ease-in-out .7s;
+ }
+
+ #adding-content li:hover{
+    background-color:lightblue;
+    cursor:pointer;
+}
+
+ #adding-content li h1{
+     width:100px;
+    word-wrap: break-word;
+    transition: all ease-in-out .7s;
+ }
+
+ #adding-content li h1:hover{
+    font-size:1.2rem;
+    text-shadow: .5px .5px .5px black, 0 0 2px blue;
+    /* color:blue; */
+}
+
+
+/* image prop */
+ #adding-content li img{
+    left: 10rem;
+     width:120px;
+    height:120px;
+    min-width:100px;
+    min-height:100px;
+ }
+
+/* heart properties */
+ #adding-content li i{
+     padding-right:20px;
+     font-size:1.5rem;
+     color:darkcyan;
+     transition: all ease-in-out .7s;
+ }
+
+ @media only screen and (min-width: 600px) {
+
+ }

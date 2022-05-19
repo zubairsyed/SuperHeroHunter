@@ -1,0 +1,144 @@
+/* body{
+    margin: 0;
+    padding: 0;
+    background-color: red;
+} */
+
+/* main container set to width 100% */
+#main-container{
+    width: 100%;
+    background-color: #4158D0;
+background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+
+overflow-x: hidden;    
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+    margin:0;
+    padding:0;
+}
+
+#div1{
+    text-align: center;
+    background-color:  #0f0a41;
+
+    height: inherit;
+    width:80%;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+
+/* personal details  */
+
+
+
+#Prsnl-dtls h1{
+    text-align: center;
+    padding-bottom: 20px;
+    
+}
+
+#Prsnl-dtls p{
+    text-align: center;
+    display: flex;
+    align-self: center;
+    line-height: 2;
+    padding-left: 5%;
+    text-align: justify;
+}
+
+/* biography */
+#biography p{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-self: center;
+    line-height: 2;
+    padding-left: 5%;
+    text-align: justify;
+}
+
+
+/* poerstats */
+#powerstats p{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-self: center;
+    line-height: 2;
+    padding-left: 5%;
+    text-align: justify;
+}
+
+
+#Prsnl-dtls{
+    text-align: center;
+    padding-top: 30px;
+    vertical-align: top;
+    line-height: 1.5rem;
+    font-size: 1.1rem;
+    font-weight: 500;
+    background-color: #00DBDE;
+    background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+    height: 370px;
+}
+
+/* image */
+#div1 img{
+    height: 400px;
+    width: 200px;
+    min-width: 100px;
+    min-height: 100px;
+    width: 38%;
+}
+
+#Prsnl-dtls{
+    list-style: none;
+    display: inline-block;
+    width: 38%;
+}
+
+#main-container #div2{
+    text-align: center;
+    display: inline-block;
+    width: 80%;
+    height: 40vh;
+    background-color:  #0f0a41;
+    /* background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%); */
+    
+}
+
+#div2 #biography,#powerstats{
+    overflow: scroll;
+    box-sizing: border-box;
+    display: inline-block;
+    width: 38%;
+    height: inherit;
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    
+
+
+}
+
+/* scroll bar y axis */
+#biography{
+    background-color: rgb(168, 255, 17);
+}
+
+#biography::-webkit-scrollbar{
+    overflow-y: hidden;
+}
+
+#powerstats{
+    background-color: cyan;
+}
+#powerstats::-webkit-scrollbar{
+    overflow-y: hidden;
+}
