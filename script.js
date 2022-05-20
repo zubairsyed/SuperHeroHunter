@@ -181,5 +181,4 @@ function searchSuperHero(searchText,KCode1) {
 // on clicking the input function is invoked and searchSuperHero is called
 inp.addEventListener('keyup', function (e) {
     searchSuperHero(e.target.value,e.keyCode);
-    
 });

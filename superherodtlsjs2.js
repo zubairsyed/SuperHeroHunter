@@ -46,7 +46,7 @@ function PrintResults(data) {
                         <h1>${data.name}</h1>
                         <p><strong>Gender : </strong>${data.appearance.gender}</p>
                         <p><strong>Height : </strong>${data.appearance.height}</p>
-                        <p><strong>Hair-Color : </strong>${data.appearance.race}</p>
+                        <p><strong>Hair-Color : </strong>${data['appearance']['hair-color']}</p>
                         <p><strong>Weight : </strong>${data.appearance.weight}</p>
                         <p><strong>Race : </strong>${data["appearance"]["race"]}</p>
                         <p><strong>Eye-Color : </strong>${data["appearance"]["eye-color"]}</p>
